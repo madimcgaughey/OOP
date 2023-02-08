@@ -26,3 +26,11 @@ class Coin:
 
     def get_sideup(self):
             return self.sideup
+
+class Insect:
+    def __init__(self):
+        self.wings = 2
+        self.legs = 4
+    def toss(self):
+        if random.randint(1:10):
+            
